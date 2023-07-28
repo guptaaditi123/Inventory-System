@@ -1,0 +1,291 @@
+body#login {
+  background-size: cover;
+}
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+table {
+  width: 100%;
+}
+table th {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: 15px;
+}
+table th {
+  font-size: 15px;
+}
+table td {
+  font-size: 13px;
+}
+body#row {
+  background-image: url("inventory-management-mistakes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-page {
+  text-align: center;
+  margin-bottom: 30px;
+}
+div.forms form {
+  padding: 50px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 8px;
+}
+div.h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(18, 61, 55);
+}
+h3 {
+  font-size: 45px;
+  color: rgb(53, 7, 17);
+  padding: 0px;
+  margin: 0px;
+}
+div.loginput label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+div.loginput {
+  margin-top: 20px;
+}
+div.loginput input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid bisque;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+div.buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+div.buttons button {
+  font-size: 20px;
+  padding: 10px 30px;
+  background: rgb(176, 115, 36);
+  border: none;
+  color: antiquewhite;
+  cursor: pointer;
+}
+div.header {
+  width: 100%;
+  height: 60px;
+  background: white;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+div.banner {
+  background: url("Warehouse\ Inventory\ Management.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+div.home {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+div.bannerhead h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+div.bannerhead p {
+  font-size: 40px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
+  margin-top: -30px;
+}
+a:hover {
+  color: h;
+}
+p.tag {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+}
+div.icons {
+  margin-top: 150px;
+}
+div.icons a {
+  font-size: 20px;
+  margin-left: 40px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+div.icons a:first-child {
+  margin-left: 0px;
+}
+div.icons a:hover {
+  color: aqua;
+  background: darkblue;
+}
+div.features {
+  display: flex;
+  flex-direction: row;
+}
+div.feature {
+  padding: 20px 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+div.feature spam.feicon {
+  height: 80px;
+  width: 80px;
+  padding-left: 21px;
+  display: inline-block;
+  font-size: 50px;
+  padding-top: 18px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+div.socials {
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+  background-color: antiquewhite;
+}
+div.socialicon {
+  font-size: 21px;
+  padding: 20px;
+  color: white;
+  height: 20px;
+  display: inline-block;
+  padding-top: 7px;
+}
+h3 {
+  text-align: center;
+}
+#dashboardhome {
+  display: flex;
+  flex-direction: row;
+}
+div.dashboard-side {
+  width: 20%;
+  background: rgb(234, 212, 212);
+  height: 100vh;
+}
+h3.dashboard-logo {
+  color: whitesmoke;
+  font-size: 80px;
+  text-align: center;
+}
+
+div.dascontent spam {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  display: inline-block;
+}
+div.dashboard-sidemenue ul.dashboard-menulist {
+  list-style: none;
+}
+ul.dashboard-menulist li {
+  padding-top: 20px;
+  padding: 15px 0px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul.dashboard-menulist li a {
+  text-decoration: none;
+  color: white;
+}
+ul.dashboard-menulist li a {
+  font-size: 25px;
+}
+ul.dashboard-menulist li.menuactive {
+  background: skyblue;
+  color: aqua;
+}
+
+ul.dashboard-menulist {
+  padding: 5px;
+  margin: top;
+}
+ul.dashboard-menulist li:hover {
+  background: skyblue;
+  color: aqua;
+  transition: 0.3s all;
+}
+div.dascontent {
+  width: 90%;
+  background: whitesmoke;
+}
+div.dascontent-topnav {
+  background: white;
+  padding: 50px;
+}
+div.dascontent-topnav {
+  color: wheat;
+  font-size: 25px;
+  text-decoration: none;
+}
+a#logout {
+  float: right;
+}
+div.dashboard-content-main {
+  background: white;
+  height: 900px;
+}
+
+div#errormessage {
+  background: rgb(162, 77, 77);
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  padding: 11px;
+}
+form::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+form.appform {
+  width: 50%;
+  margin: 0 auto;
+  padding: 19px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: silver;
+}
+form input.appForminput {
+  width: 100%;
+  height: 33px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+div.appF_container {
+  padding-top: 20px;
+}
+div#useraddformcontainer {
+  padding-top: 200px;
+}
+button.shell {
+  padding: 50px;
+}
